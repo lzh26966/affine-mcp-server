@@ -11,6 +11,15 @@ A Model Context Protocol (MCP) server for AFFiNE. It exposes AFFiNE workspaces a
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@DAWNCR0W/affine-mcp-server/badge" alt="AFFiNE Server MCP server" />
 </a>
 
+> **Fork notice.** This repository is a fork of
+> [DAWNCR0W/affine-mcp-server](https://github.com/DAWNCR0W/affine-mcp-server) (MIT).
+> It exists to carry self-hosted login fixes that are documented under
+> `## [Unreleased]` in [CHANGELOG.md](CHANGELOG.md): `AFFINE_ALLOW_INSECURE_HTTP`
+> was ignored by `affine-mcp login`, the login prompt always defaulted to
+> `https://app.affine.pro` instead of the configured URL, and AFFiNE Cloud was
+> detected by substring-matching `affine.pro`. Upstream remains the source of
+> truth for everything else.
+
 ## Table of Contents
 
 - [Overview](#overview)
